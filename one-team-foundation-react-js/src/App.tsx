@@ -29,7 +29,6 @@ const App: React.FC = () => {
           <Route path="/home" Component={Home} />
           <Route path="/our-founder" Component={OurFounder} />
           <Route path="/music" Component={Music} />
-          {/* Add all pages in my project as routes */}
           <Route path="/sports" Component={Sports} />
           <Route path="/entertainment" Component={Entertainment} />
           <Route path="/workshops" Component={Workshops} />
