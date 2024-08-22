@@ -25,23 +25,23 @@ const App: React.FC = () => {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/our-founder" element={<OurFounder />} />
-          <Route path="/music" element={<Music />} />
+          <Route path="/" Component={Home} />
+          <Route path="/home" Component={Home} />
+          <Route path="/our-founder" Component={OurFounder} />
+          <Route path="/music" Component={Music} />
           {/* Add all pages in my project as routes */}
-          <Route path="/sports" element={<Sports />} />
-          <Route path="/entertainment" element={<Entertainment />} />
-          <Route path="/workshops" element={<Workshops />} />
-          <Route path="/upcoming-events" element={<UpcomingEvents />} />
-          <Route path="/companies-support" element={<CompaniesSupport />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/our-projects" element={<OurProjects />} />
-          <Route path="/our-mission" element={<OurMission />} />
-          <Route path="/arts" element={<Arts />} />
-          <Route path="/donate" element={<Donate />} />
-          <Route path="/about" element={<About />} />
-          {/* Add additional routes here */}
+          <Route path="/sports" Component={Sports} />
+          <Route path="/entertainment" Component={Entertainment} />
+          <Route path="/workshops" Component={Workshops} />
+          <Route path="/upcoming-events" Component={UpcomingEvents} />
+          <Route path="/companies-support" Component={CompaniesSupport} />
+          <Route path="/blog" Component={Blog} />
+          <Route path="/contact" Component={Contact} />
+          <Route path="/our-projects" Component={OurProjects} />
+          <Route path="/our-mission" Component={OurMission} />
+          <Route path="/arts" Component={Arts} />
+          <Route path="/donate" Component={Donate} />
+          <Route path="/about" Component={About} />
         </Routes>
         <Footer />
       </div>
